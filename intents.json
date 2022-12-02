@@ -1,0 +1,330 @@
+{
+  "intents": [
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what's your name",
+        "who are you",
+        "can you tell me what your name is"
+      ],
+      "responses": [
+        "you can call me Codee!😁",
+        "I'm Codee!🤖",
+        "Codee the chatbot!😎"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke?",
+        "joke",
+        "can you tell me a joke"
+      ],
+      "responses": [
+        "Why didn’t the skeleton get a prom date? He didn’t have the guts to ask anyone",
+        "What kind of music do planets like? Neptunes haha",
+        "What do you call a coffee robbery? A mugging!",
+        "Why did the tomato blush? He saw the salad dressing"
+      ]
+    },
+    {
+      "tag": "application",
+      "patterns": [
+        "Can the application fee be waived for me?",
+        "what is the application fee",
+        "how do I request a fee waiver?"
+      ],
+      "responses": [
+        "To request a fee waiver, you must complete the application form and answer ‘Yes’ to 99% of the qualifying questions within the Application Fee & Waiver Scenarios section of the application. The application will then provide more specific directions to request the appropriate fee waiver (Application Fee)"
+      ]
+    },
+    {
+      "tag": "transcript",
+      "patterns": [
+        "Do I need to submit the official transcript to be considered for admission?"
+      ],
+      "responses": [
+        "Applicants must submit an official transcript showing an awarded bachelor’s degree or higher from a regionally accredited institution. International students also need to submit a course-by-course evaluation of official foreign transcripts (please see the Official Transcripts section of the Application Process page."
+      ]
+    },
+    {
+      "tag": "GRE score",
+      "patterns": [
+        " What is the minimum GRE score required to be considered for admission?"
+      ],
+      "responses": [
+        "GRE minimum requirement for regular admission is 30th percentile of averaged combined verbal and quantitative score (see the Quick guide from the Graduate School"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "hello there",
+        "greetings"
+      ],
+      "responses": [
+        "Hello Pirate! I am Codee the chatbot. What may I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "see you later",
+        "bye",
+        "goodbye",
+        "see ya",
+        "thanks bye",
+        "I'll see you later",
+        "goodbye now"
+      ],
+      "responses": [
+        "Alright bye! Come again!😊",
+        "Goodbye!Nice chatting with you😉",
+        "See you later alligator😎"
+      ]
+    },
+    {
+      "tag": "english proficiency test",
+      "patterns": [
+        " Can the English proficiency test be waived for me because I have had all my education in English?"
+      ],
+      "responses": [
+        "If English is not your native language and you have not completed at least one year of education (minimum of 18 credit hours) at a United States school, you are required to take a standardized English language exam or complete the ECU Language Academy (https://gradschool.ecu.edu/international-students/)."
+      ]
+    },
+    {
+      "tag": "funding",
+      "patterns": [
+        "What is the possibility of getting funding through graduate assistantships? Do I need to secure an advisor?"
+      ],
+      "responses": [
+        "Our department offers research and teaching assistantships to qualified graduate students. All students admitted to the graduate programs will be considered for the research and teaching assistantship awards. You do not need to have a faculty advisor to be considered for assistantship."
+      ]
+    },
+    {
+      "tag": "application deadline",
+      "patterns": [
+        "What is the application deadline?",
+        "application deadline"
+      ],
+      "responses": [
+        "The priority deadline is February 1st for Fall semester, and September 1st for Spring semester. Applications received by these deadlines will be given priority in funding decision."
+      ]
+    },
+    {
+      "tag": "rolling application deadline",
+      "patterns": [
+        "what's the rolling application deadline",
+        "rolling deadline",
+        "rolling application deadline"
+      ],
+      "responses": [
+        "The rolling deadline is August 1st for Fall semester, and December 15th for Spring semester. Applications received by these deadlines will be considered for funding if any funds are still available"
+      ]
+    },
+    {
+      "tag": "withdraw course",
+      "patterns": [
+        "How can I withdraw from a course?",
+        "withdraw course",
+        "withdraw from course",
+        "I'd like to withdraw from a course",
+        "course withdraw",
+        "withdraw",
+        "pirateport"
+      ],
+      "responses": [
+        "Students can add/drop courses in PiratePort (Link: https://pirateport.ecu.edu/connect/#/login) during the first week of classes.To drop a class without the grade listed on transcript submit a request by 5: 00 PM on the class day after 60% of the class days are completed, at the latest. Send an email to regis@ecu.edu and CC the Graduate Program Director with your full name, Banner ID, course name/number, and reason for dropping the course."
+      ]
+    },
+    {
+      "tag": "leave of absence",
+      "patterns": [
+        "I need to take a leave of absence. How do I proceed?",
+        "leave of absence",
+        "I am a graduate student and need to take a leave of absence. What should I do?",
+        "need to take a leave of absence"
+      ],
+      "responses": [
+        "Please notify the graduate program director and file a readmission application prior to returning.If you take a leave of less than three years, file an application for readmission online at https://gradschool.ecu.edu. If you wish to change graduate degree or certificate programs after a leave of absence you must submit a new admissions application. If you take a leave of absence of three or more years you must submit a new complete application to be considered for admission. For more details, please see the university catalog."
+      ]
+    },
+    {
+      "tag": "freshman computer science",
+      "patterns": [
+        "admission requirements for computer science",
+        "what are the computer science admission requirements",
+        "what is the admission requirements for incoming computer science freshman?",
+        "admission requirements for freshman?"
+      ],
+      "responses": [
+        "For newly admitted students into ECU (i.e., freshmen), students must be eligible for MATH 1065, as determined by the ECU Department of Mathematics."
+      ]
+    },
+    {
+      "tag": "day going",
+      "patterns": [
+        "is your day going great?",
+        "day going",
+        "how is your day going?",
+        "is your day going well?"
+      ],
+      "responses": [
+        "I've been great! My day has been busy. Thanks for asking",
+        "I've been good thanks for asking!",
+        "My day has been good. Thanks for asking"
+      ]
+    },
+    {
+      "tag": "saying hello",
+      "patterns": [
+        "how are you?",
+        "how is everything",
+        "you're doing alright?"
+      ],
+      "responses": [
+        "I am great. I hope you are too!"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "what music do you like",
+        "what music do you listen to",
+        "music",
+        "do you listen to music"
+      ],
+      "responses": [
+        "Yes I love listening to all music except the songs I don't like. =D"
+      ]
+    },
+    {
+      "tag": "transfer student",
+      "patterns": [
+        "I am a transfer student and I'd like to know the admission requirements?"
+      ],
+      "responses": [
+        "Transfer students from other institutions must have a 2.5 cumulative transfer GPA and minimum eligibility for MATH 2121 or MATH 2171, as determined by the ECU Department of Mathematics."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you",
+        "how old is Codee",
+        "how old is Codee the chatbot",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I am immortal😉",
+        "I'm a robot, I don't do this aging thing🤙",
+        "I am a robot, I do not have an age",
+        "Younger than Peedee *wink *wink"
+      ]
+    },
+    {
+      "tag": "ecu site links",
+      "patterns": [
+        "where do i apply for school here?"
+      ],
+      "responses": [
+        "You can go to https://admissions.ecu.edu/apply/ to apply"
+      ]
+    },
+    {
+      "tag:": "appointment with advisor",
+      "patterns": [
+        "how do i schedule an appointment with the computer science advisor?",
+        "how do i schedule an appointment with advisor",
+        "schedule appointment with advisor",
+        "schedule appointment with Sarah Joyner"
+      ],
+      "responses": [
+        "Please click on this link to schedule an appointment with Sarah Joyner: https://outlook.office365.com/owa/calendar/SarahJoynerCETSSCSoftwareEngineeringandComputerScience@studentsecuedu66932.onmicrosoft.com/bookings/"
+      ]
+    },
+    {
+      "tag": "how to register for classes",
+      "patterns": [
+        "I need to register for classes",
+        "register for classes",
+        "need to register for my classes",
+        "need to register for classes",
+        "how do I register for classes",
+        "how to register for classes"
+      ],
+      "responses": [
+        " How to register for classes: Log into Pirate port. Click on Registration & Planning.Click on Add or Drop Classes. Select the term you want to register classes for. Enter Registration PIN. Use the Find Classes section to find/add your desired classes. To register click the submit button at the bottom right corner"
+      ]
+    },
+    {
+      "tag": "how to register for classes with a plan",
+      "patterns": [
+        "how do i register for classes with a plan?"
+      ],
+      "responses": [
+        "Log into Pirate port. Click on Registration & Planning.Click on Add or Drop Classes. Select the term you want to register classes for. Enter Registration PIN. Click the Plans tab. Click Add All button on the right hand side. Once all classes have been added, Click the Submit on the bottom right."
+      ]
+    },
+    {
+      "tag": "Receiving an error during registration",
+      "patterns": [
+        "i received an error during registration. what do i do?"
+      ],
+      "responses": [
+        "If you recieved an error during registration, email Sarah Joyner(joynersa21@ecu.edu) with the following: class you are trying to register for, the section number of the class, the error message, screenshot of error"
+      ]
+    },
+    {
+      "tag": "campus restriction error",
+      "patterns": [
+        "i received a campus restriction error what does this mean?",
+        "campus restriction error"
+      ],
+      "responses": [
+        "You cannot take the course due to the fact that it is restricted to students who are entirely remote"
+      ]
+    },
+    {
+      "tag": "class restriction error",
+      "patterns": [
+        "what does class restriction error mean?",
+        "class restriction error"
+      ],
+      "responses": [
+        "You cannot take said course due to the fact that you need to be at the class level or one below. (freshman can take 1000 & 2000, Spohmore 2000 and 3000, and juniors 3000 annd 4000 level etc)"
+      ]
+    },
+    {
+      "tag": "equivalent courses",
+      "patterns": [
+        "course equivalent from other schools",
+        "course equivalent",
+        "equivalent courses"
+      ],
+      "responses": [
+        " Look up “course equivalency” in banner to see transfer equivalencies. Reminder: your courses taken outside of ECU do not have any influence on your ECU GPA. visit https://registrar.ecu.edu/wp-content/pv-uploads/sites/166/2018/01/Transferring-Courses-Completed-at-Another-College.pdf"
+      ]
+    },
+    {
+      "tag": "check waitlist position",
+      "patterns": [
+        "how do i check for waitlist position",
+        "check for waitlist position",
+        "waitlist position",
+        "check waitlist position"
+      ],
+      "responses": [
+        "Log into Pirate port. Click on Registration & Planning. Click on Add or Drop Classes. Select the term your waitlist class is in. Enter your provided registration PIN. Click schedule details at the bottom. Find the waitlisted class. Click the triangle icon to the left of the Class name to see your waitlist position"
+      ]
+    }
+  ]
+}
