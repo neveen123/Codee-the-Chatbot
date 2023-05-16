@@ -94,14 +94,11 @@ def get_response(intents_list, intents_json):
             return random.choice(i['responses'])  # prints a random response
 
 
-'''def bot_greeting(text):
-
-    greeting = "I am Codee the chatbot and I can assist with your computer science FAQS! Ask away😀.Type quit to leave this session at anytime"
-    print(greeting)'''
+print("I am Codee the chatbot and I can assist with your computer science FAQS! Ask away😀.Type quit to leave this session at anytime")
 
 
-def chatbot_response(text):
-    ints = predict_class(text)
+def chatbot_response(msg):
+    ints = predict_class(msg)
     res = get_response(ints, intents)
     return res
 
